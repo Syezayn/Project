@@ -1,0 +1,268 @@
+/* Index Navigation Bar */
+.navI {
+    width: 100%;
+    height: fit-content;
+    background-color: #333;
+    overflow: hidden;  
+  }
+  
+  /* nav bar link location */
+  .navI a {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 28px 55px;
+    font-size: 20px;
+  }
+
+  .navI h3 {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 50px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /* hover link color change */
+  .navI a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* active location color */
+  .navI a.active {
+    background-color: darkslategray;
+    color: white;
+  }
+
+  /* Product Navigation */
+.navP {
+  width: 100%;
+  height: fit-content;
+  background-color: #333;
+  overflow: hidden;  
+}
+
+/* nav bar link location */
+.navP a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 28px 55px;
+  font-size: 20px;
+}
+
+.navP h3 {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 55px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* hover link color change */
+.navP a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* active location color */
+.navP a.active {
+  background-color: darkslategray;
+  color: white;
+}
+
+/* About Us Navigation Bar */
+.navA {
+  width: 100%;
+  height: fit-content;
+  background-color: #333;
+  overflow: hidden;  
+}
+
+/* nav bar link location */
+.navA a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 28px 55px;
+  font-size: 20px;
+}
+
+.navA h3 {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 55px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* hover link color change */
+.navA a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* active location color */
+.navA a.active {
+  background-color: darkslategray;
+  color: white;
+}
+
+/* Contact Us Navigation Bar */
+.navC {
+  width: 100%;
+  height: fit-content;
+  background-color: #333;
+  overflow: hidden;  
+}
+
+/* nav bar link location */
+.navC a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 28px 55px;
+  font-size: 20px;
+}
+
+.navC h3 {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 55px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* hover link color change */
+.navC a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* active location color */
+.navC a.active {
+  background-color: darkslategray;
+  color: white;
+}
+
+
+/* Imaging center */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner {
+  display: block;
+  height: 250px;
+  width: 100%;
+  
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.3%;
+  padding: 5px;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  padding: 0px;
+  color: black
+}
+
+h2 {
+  padding: 10px 300px;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(Images/White\ poly.jpg);
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+.Location {
+  display: block;
+  float: left;
+}
+
+.text {
+  padding-right: 400px;
+  padding-left: 400px;
+  font-size: 25px;
+}
+
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.irfan {
+  padding-left: 50px;
+  
+}
+
+.Paragraph {
+  font-size: 23px;
+  padding-left: 50px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Location {
+  float: left;
+}
+
+.email {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgrey;
+  color: black;
+  padding: 0px;
+}
+
+.footer-column {
+width: 30%;
+text-align: center;
+
+}
